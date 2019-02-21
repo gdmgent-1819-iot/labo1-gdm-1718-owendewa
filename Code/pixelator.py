@@ -15,7 +15,7 @@ while True:
 				sense.set_pixel(y-1,x,0,0,0)
 			if y == 0 and x!=0:
 				sense.set_pixel(7,x-1,0,0,0)
-			time.sleep(0.05)
+			time.sleep(0.5)
 			
 
 			
